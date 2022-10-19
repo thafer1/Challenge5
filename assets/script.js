@@ -2,6 +2,17 @@
 var currentDay = moment().format("dddd, MMMM Do")
 $("#currentDay").text(currentDay);
 
+// Created variables to reference timeblocks
+var nineAm = $("9AM");
+var tenAm = $("10AM");
+var elevenAm = $("11AM");
+var twelvePm = $("12PM");
+var onePm = $("1PM");
+var twoPm = $("2PM");
+var threePm = $("3PM");
+var fourPm = $("4PM");
+var fivePm = $("5PM");
+
 // Functionality for save buttons
 $(".saveBtn").on("click", function() {
     userInput = $(this).siblings(".form-control").val();
