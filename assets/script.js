@@ -13,6 +13,19 @@ var threePm = $("3PM");
 var fourPm = $("4PM");
 var fivePm = $("5PM");
 
+// Created array to store timeblock variables
+var timeArray = [
+    nineAm,
+    tenAm,
+    elevenAm,
+    twelvePm,
+    onePm,
+    twoPm,
+    threePm,
+    fourPm,
+    fivePm
+];
+
 // Functionality for save buttons
 $(".saveBtn").on("click", function() {
     userInput = $(this).siblings(".form-control").val();
